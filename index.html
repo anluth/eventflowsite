@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Event Flow | Plataforma Administrativa de Eventos</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+	<meta content="" name="description" />
+	<meta content="" name="author" />
+	
+	<!-- ================== BEGIN BASE CSS STYLE ================== -->
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="assets/css/animate.min.css" rel="stylesheet" />
+	<link href="assets/css/style.min.css" rel="stylesheet" />
+	<link href="assets/css/style-responsive.min.css" rel="stylesheet" />
+    <link href="assets/css/theme/default.css" id="theme" rel="stylesheet" />
+    <style>
+          img.img-head{
+
+                display: block;
+                float: left;
+                margin-top:-13px;
+            }
+    </style>
+	<!-- ================== END BASE CSS STYLE ================== -->
+	
+	<!-- ================== BEGIN BASE JS ================== -->
+	<script src="assets/plugins/pace/pace.min.js"></script>
+	<!-- ================== END BASE JS ================== -->
+</head>
+<body data-spy="scroll" data-target="#header-navbar" data-offset="51">
+    <!-- begin #page-container -->
+    <div id="page-container" class="fade">
+        <!-- begin #header -->
+        <div id="header" class="header navbar navbar-transparent navbar-fixed-top">
+            <!-- begin container -->
+            <div class="container">
+                <!-- begin navbar-header -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-navbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">
+                        <!-- <span class="brand-logo"></span> -->
+                        <span class="brand-text">
+                                <img src="assets/img/eventflow_micro.PNG" class="img-head" alt="Event Flow" />
+                            <!-- <span class="text-theme">Event</span> Flow -->
+                        </span>
+                    </a>
+                </div>
+                <!-- end navbar-header -->
+                <!-- begin navbar-collapse -->
+                <div class="collapse navbar-collapse" id="header-navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active dropdown">
+                            <a href="#home" data-click="scroll-to-target" data-toggle="dropdown">HOME <b class="caret"></b></a>
+                            <ul class="dropdown-menu dropdown-menu-left animated fadeInDown">
+                                <li><a href="index.html">Page with Transparent Header</a></li>
+                                <!-- <li><a href="inverse_header.html">Page with Inverse Header</a></li> -->
+                                <!-- <li><a href="default_header.html">Page with White Header</a></li> -->
+                                <!-- <li><a href="extra_element.html">Extra Element</a></li> -->
+                            </ul>
+                        </li>
+                        <li><a href="#about" data-click="scroll-to-target">SOBRE NÓS</a></li>
+                        <!-- <li><a href="#team" data-click="scroll-to-target">TEAM</a></li> -->
+                        <li><a href="#service" data-click="scroll-to-target">SERVIÇOS</a></li>
+                        <!-- <li><a href="#work" data-click="scroll-to-target">WORK</a></li> -->
+                        <li><a href="#client" data-click="scroll-to-target">CLIENTES</a></li>
+                        <li><a href="#pricing" data-click="scroll-to-target">PREÇO</a></li>
+                        <li><a href="#contact" data-click="scroll-to-target">CONTATO</a></li>
+                    </ul>
+                </div>
+                <!-- end navbar-collapse -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end #header -->
+        
+        <!-- begin #home -->
+        <div id="home" class="content has-bg home">
+            <!-- begin content-bg -->
+            <div class="content-bg">
+                <img src="assets/img/home-bg.jpg" alt="Home" />
+            </div>
+            <!-- end content-bg -->
+            <!-- begin container -->
+            <div class="container home-content">
+                <h1>Bem Vindo ao Event Flow</h1>
+                <h3>Plataforma de Administração de Eventos</h3>
+                <p>
+                    Criamos uma plataforma para controle total dos eventos da sua empresa.<br/>
+                    Desde a chegada do cliente até o último brinde!
+                    
+                </p>
+                <a href="#" class="btn btn-theme">Explore Mais</a> <a href="#" class="btn btn-outline">Compre Agora</a><br />
+                <br />
+                or <a href="#">subscribe</a> newsletter
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end #home -->
+        
+        <!-- begin #about -->
+        <div id="about" class="content" data-scrollview="true">
+            <!-- begin container -->
+            <div class="container" data-animation="true" data-animation-type="fadeInDown">
+                <h2 class="content-title">Sobre Nós</h2>
+                <p class="content-desc">
+                    A tecnologia hoje é essencial para a competitividade das empresas. Tendo isso em vista,<br />
+                    desenvolvemos soluções em TI moldadas para atender a todo tipo de necessidade de diversos<br />
+                    tipos de negócio. E com as ferramentas certas, uma organização consegue otimizar seus processos,<br />
+                    reduzindo custos e ampliando a produtividade. E é exatamente isso que oferecemos!<br />
+                </p>
+                <!-- begin row -->
+                <div class="row">
+                    <!-- begin col-4 -->
+                    <div class="col-md-4 col-sm-6">
+                        <!-- begin about -->
+                        <div class="about">
+                            <h3>Nossa História</h3>
+                            <p>
+                                Fundada em 2018, somos uma empresa especializada em Tecnologia 
+                                da Informação e oferece soluções que melhor se adaptam ao seu 
+                                negócio, buscando sempre a excelência nos serviços prestados.
+                                Nosso objetivo é tornar cada vez mais prático e eficaz o dia 
+                                a dia de nossos clientes fornecendo um atendimento personalizado,
+                                visando um serviço de qualidade e com o melhor custo/benefício do mercado.    
+                            </p>
+                            
+                        </div>
+                        <!-- end about -->
+                    </div>
+                    <!-- end col-4 -->
+                    <!-- begin col-4 -->
+                    <div class="col-md-4 col-sm-6">
+                        <h3>Nossa Filosofia</h3>
+                        <!-- begin about-author -->
+                        <div class="about-author">
+                            <div class="quote bg-silver">
+                                <i class="fa fa-quote-left"></i>
+                                <h3>Nós trabalhamos duro,<br /><span>para deixar nosso cliente tranquilo</span></h3>
+                                <i class="fa fa-quote-right"></i>
+                            </div>
+                            <div class="author">
+                                <div class="image">
+                                    <img src="assets/img/eventflow_mini.PNG" alt="Event Flow" />
+                                </div>
+                                <div class="info">
+                                    André Luiz
+                                    <small>Desenvolvedor Front End</small>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end about-author -->
+                    </div>
+                    <!-- end col-4 -->
+                    <!-- begin col-4 -->
+                    <div class="col-md-4 col-sm-12">
+                        <h3>Nossa Experiência</h3>
+                        <!-- begin skills -->
+                        <div class="skills">
+                            <div class="skills-name">Front End</div>
+                            <div class="progress progress-striped">
+                                <div class="progress-bar progress-bar-success" style="width: 95%">
+                                    <span class="progress-number">95%</span>
+                                </div>
+                            </div>
+                            <div class="skills-name">Programming</div>
+                            <div class="progress progress-striped">
+                                <div class="progress-bar progress-bar-success" style="width: 90%">
+                                    <span class="progress-number">90%</span>
+                                </div>
+                            </div>
+                            <div class="skills-name">Database Design</div>
+                            <div class="progress progress-striped">
+                                <div class="progress-bar progress-bar-success" style="width: 85%">
+                                    <span class="progress-number">85%</span>
+                                </div>
+                            </div>
+                            <div class="skills-name">Wordpress</div>
+                            <div class="progress progress-striped">
+                                <div class="progress-bar progress-bar-success" style="width: 80%">
+                                    <span class="progress-number">80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end skills -->
+                    </div>
+                    <!-- end col-4 -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end #about -->
+    
+        <!-- begin #milestone -->
+        <div id="milestone" class="content bg-black-darker has-bg" data-scrollview="true">
+            <!-- begin content-bg -->
+            <div class="content-bg">
+                <img src="assets/img/milestone-bg.jpg" alt="Milestone" />
+            </div>
+            <!-- end content-bg -->
+            <!-- begin container -->
+            <div class="container">
+                <!-- begin row -->
+                <div class="row">
+                    <!-- begin col-3 -->
+                    <div class="col-md-3 col-sm-3 milestone-col">
+                        <div class="milestone">
+                            <div class="number" data-animation="true" data-animation-type="number" data-final-number="1292">1,292</div>
+                            <div class="title">Themes & Template</div>
+                        </div>
+                    </div>
+                    <!-- end col-3 -->
+                    <!-- begin col-3 -->
+                    <div class="col-md-3 col-sm-3 milestone-col">
+                        <div class="milestone">
+                            <div class="number" data-animation="true" data-animation-type="number" data-final-number="9039">9,039</div>
+                            <div class="title">Registered Members</div>
+                        </div>
+                    </div>
+                    <!-- end col-3 -->
+                    <!-- begin col-3 -->
+                    <div class="col-md-3 col-sm-3 milestone-col">
+                        <div class="milestone">
+                            <div class="number" data-animation="true" data-animation-type="number" data-final-number="89291">89,291</div>
+                            <div class="title">Items Sold</div>
+                        </div>
+                    </div>
+                    <!-- end col-3 -->
+                    <!-- begin col-3 -->
+                    <div class="col-md-3 col-sm-3 milestone-col">
+                        <div class="milestone">
+                            <div class="number" data-animation="true" data-animation-type="number" data-final-number="129">129</div>
+                            <div class="title">Theme Authors</div>
+                        </div>
+                    </div>
+                    <!-- end col-3 -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end #milestone -->
+        
+        <!-- begin #team -->
+       
+        <!-- end #team -->
+        
+        <!-- begin #quote -->
+
+        <!-- end #quote -->
+        
+        <!-- beign #service -->
+        <div id="service" class="content" data-scrollview="true">
+            <!-- begin container -->
+            <div class="container">
+                <h2 class="content-title">Nossos Serviços</h2>
+                <p class="content-desc">
+                    Nossos serviços vêm de encontro aos objetivos da empresa, atender nossos clientes com as <br />
+                    melhores soluções disponíveis de acordo com a necessidade de cada caso, permitindo assim <br />
+                    que o evento seja o mais espetacular possivel!.
+                </p>
+                <!-- begin row -->
+                <div class="row">
+                    <!-- begin col-4 -->
+                    <div class="col-md-4 col-sm-4">
+                        <div class="service">
+                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-cog"></i></div>
+                            <div class="info">
+                                <h4 class="title">Fácil Administrar</h4>
+                                <p class="desc">
+                                    Uma plataforma muito clara e intuitiva onde o usuario controla todo o fluxo do evento de maneira agil e descomplicada.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col-4 -->
+                    <!-- begin col-4 -->
+                    <div class="col-md-4 col-sm-4">
+                        <div class="service">
+                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-paint-brush"></i></div>
+                            <div class="info">
+                                <h4 class="title">Design Limpo & Moderno</h4>
+                                <p class="desc">
+                                    Ambiente muito agradavel e bonito, com dashboards modernos com toda a informação a sua disposição de maneira simples e objetiva.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col-4 -->
+                    <!-- begin col-4 -->
+                    <div class="col-md-4 col-sm-4">
+                        <div class="service">
+                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-file"></i></div>
+                            <div class="info">
+                                <h4 class="title">Bem Documentado</h4>
+                                <p class="desc">
+                                    Documentação e manuais completos e na versão "on-line" tornando a experiencia muito mais facil e com um dominio muito mais rápido.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col-4 -->
+                </div>
+                <!-- end row -->
+                <!-- begin row -->
+                <!--<div class="row">-->
+                    <!-- begin col-4 -->
+                    <!--<div class="col-md-4 col-sm-4">
+                        <div class="service">
+                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-code"></i></div>
+                            <div class="info">
+                                <h4 class="title">Código Reutilizável</h4>
+                                <p class="desc">Aenean et elementum dui. Aenean massa enim, suscipit ut molestie quis, pretium sed orci. Ut faucibus egestas mattis.</p>
+                            </div>
+                        </div>
+                    </div>-->
+                    <!-- end col-4 -->
+                    <!-- begin col-4 -->
+                    <!--<div class="col-md-4 col-sm-4">
+                        <div class="service">
+                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-shopping-cart"></i></div>
+                            <div class="info">
+                                <h4 class="title">Loja On-line</h4>
+                                <p class="desc">Quisque gravida metus in sollicitudin feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                            </div>
+                        </div>
+                    </div>-->
+                    <!-- end col-4 -->
+                    <!-- begin col-4 -->
+                    <!--<div class="col-md-4 col-sm-4">
+                        <div class="service">
+                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-heart"></i></div>
+                            <div class="info">
+                                <h4 class="title">Suporte Grátis</h4>
+                                <p class="desc">Integer consectetur, massa id mattis tincidunt, sapien erat malesuada turpis, nec vehicula lacus felis nec libero. Fusce non lorem nisl.</p>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- end col-4 -->
+                <!--</div>-->
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end #about -->
+        
+        <!-- beign #action-box -->
+        <!-- <div id="action-box" class="content has-bg" data-scrollview="true"> -->
+            <!-- begin content-bg -->
+           <!--  <div class="content-bg">
+                <img src="assets/img/action-bg.jpg" alt="Action" />
+            </div> -->
+            <!-- end content-bg -->
+            <!-- begin container -->
+            <!-- <div class="container" data-animation="true" data-animation-type="fadeInRight"> -->
+                <!-- begin row -->
+                <!-- <div class="row action-box"> -->
+                    <!-- begin col-9 -->
+                    <!--<div class="col-md-9 col-sm-9">
+                        <div class="icon-large text-theme">
+                            <i class="fa fa-binoculars"></i>
+                        </div> 
+                        <h3>CONFIRA O NOSSO TEMA DE ADMINISTRAÇÃO!</h3>
+                        <p>
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus faucibus magna eu lacinia eleifend.
+                        </p>
+                    </div>-->
+                    <!-- end col-9 -->
+                    <!-- begin col-3 -->
+                    <!--<div class="col-md-3 col-sm-3">
+                        <a href="#" class="btn btn-outline btn-block">Live Preview</a>
+                    </div>-->
+                    <!-- end col-3 -->
+                <!-- </div> -->
+                <!-- end row -->
+            <!-- </div> -->
+            <!-- end container -->
+        <!-- </div> -->
+        <!-- end #action-box -->
+        
+        <!-- begin #work -->
+        <!-- <div id="work" class="content" data-scrollview="true"> -->
+            <!-- begin container -->
+            <!-- <div class="container" data-animation="true" data-animation-type="fadeInDown">
+                <h2 class="content-title">Nosso Trabalho mais Recente</h2>
+                <p class="content-desc">
+                    Algumas de nossas entregas onde atendemos de forma eficiente e pontual, facilitando o negocio <br />
+                    e tornando mais facil e agradavel o controle do seu evento.
+                    
+                </p>
+                <!-- begin row -->
+                <!-- <div class="row row-space-10"> -->
+                    <!-- begin col-3 -->
+                    <!-- <div class="col-md-3 col-sm-6"> -->
+                        <!-- begin work -->
+                      <!--   <div class="work">
+                            <div class="image">
+                                <a href="#"><img src="assets/img/work-1.jpg" alt="Work 1" /></a>
+                            </div>
+                            <div class="desc">
+                                <span class="desc-title">Aliquam molestie</span>
+                                <span class="desc-text">Lorem ipsum dolor sit amet</span>
+                            </div>
+                        </div> -->
+                        <!-- end work -->
+                    <!-- </div> -->
+                    <!-- end col-3 -->
+                    <!-- begin col-3 -->
+                    <!-- <div class="col-md-3 col-sm-6"> -->
+                        <!-- begin work -->
+                      <!--   <div class="work">
+                            <div class="image">
+                                <a href="#"><img src="assets/img/work-3.jpg" alt="Work 3" /></a>
+                            </div>
+                            <div class="desc">
+                                <span class="desc-title">Quisque at pulvinar lacus</span>
+                                <span class="desc-text">Lorem ipsum dolor sit amet</span>
+                            </div>
+                        </div> -->
+                        <!-- end work -->
+                    <!-- </div> -->
+                    <!-- end col-3 -->
+                    <!-- begin col-3 -->
+                    <!-- <div class="col-md-3 col-sm-6"> -->
+                        <!-- begin work -->
+                    <!--     <div class="work">
+                            <div class="image">
+                                <a href="#"><img src="assets/img/work-5.jpg" alt="Work 5" /></a>
+                            </div>
+                            <div class="desc">
+                                <span class="desc-title">Vestibulum et erat ornare</span>
+                                <span class="desc-text">Lorem ipsum dolor sit amet</span>
+                            </div>
+                        </div> -->
+                        <!-- end work -->
+                    <!-- </div> -->
+                    <!-- end col-3 -->
+                    <!-- begin col-3 -->
+                    <!-- <div class="col-md-3 col-sm-6"> -->
+                        <!-- begin work -->
+                    <!--     <div class="work">
+                            <div class="image">
+                                <a href="#"><img src="assets/img/work-7.jpg" alt="Work 7" /></a>
+                            </div>
+                            <div class="desc">
+                                <span class="desc-title">Sed vitae mollis magna</span>
+                                <span class="desc-text">Lorem ipsum dolor sit amet</span>
+                            </div>
+                        </div> -->
+                        <!-- end work -->
+                    <!-- </div> -->
+                    <!-- end col-3 -->
+                <!-- </div> -->
+                <!-- end row -->
+                <!-- begin row -->
+                <!-- <div class="row row-space-10"> -->
+                    <!-- begin col-3 -->
+                    <!-- <div class="col-md-3 col-sm-6"> -->
+                        <!-- begin work -->
+                   <!--      <div class="work">
+                            <div class="image">
+                                <a href="#"><img src="assets/img/work-2.jpg" alt="Work 2" /></a>
+                            </div>
+                            <div class="desc">
+                                <span class="desc-title">Suspendisse at mattis odio</span>
+                                <span class="desc-text">Lorem ipsum dolor sit amet</span>
+                            </div>
+                        </div> -->
+                        <!-- end work -->
+                    </div>
+                    <!-- end col-3 -->
+                    <!-- begin col-3 -->
+                    <!-- <div class="col-md-3 col-sm-6"> -->
+                        <!-- begin work -->
+                        <!-- <div class="work">
+                            <div class="image">
+                                <a href="#"><img src="assets/img/work-4.jpg" alt="Work 4" /></a>
+                            </div>
+                            <div class="desc">
+                                <span class="desc-title">Aliquam vitae commodo diam</span>
+                                <span class="desc-text">Lorem ipsum dolor sit amet</span>
+                            </div>
+                        </div> -->
+                        <!-- end work -->
+                    <!-- </div> -->
+                    <!-- end col-3 -->
+                    <!-- begin col-3 -->
+                    <!-- <div class="col-md-3 col-sm-6"> -->
+                        <!-- begin work -->
+                        <!-- <div class="work">
+                            <div class="image">
+                                <a href="#"><img src="assets/img/work-6.jpg" alt="Work 6" /></a>
+                            </div>
+                            <div class="desc">
+                                <span class="desc-title">Phasellus eu vehicula lorem</span>
+                                <span class="desc-text">Lorem ipsum dolor sit amet</span>
+                            </div>
+                        </div> -->
+                        <!-- end work -->
+                    <!-- </div> -->
+                    <!-- end col-3 -->
+                    <!-- begin col-3 -->
+                    <!-- <div class="col-md-3 col-sm-6"> -->
+                        <!-- begin work -->
+                        <!-- <div class="work">
+                            <div class="image">
+                                <a href="#"><img src="assets/img/work-8.jpg" alt="Work 8" /></a>
+                            </div>
+                            <div class="desc">
+                                <span class="desc-title">Morbi bibendum pellentesque</span>
+                                <span class="desc-text">Lorem ipsum dolor sit amet</span>
+                            </div>
+                        </div> -->
+                        <!-- end work -->
+                    <!-- </div> -->
+                    <!-- end col-3 -->
+                <!-- </div> -->
+                <!-- end row -->
+            <!-- </div> -->
+            <!-- end container -->
+        <!-- </div> -->
+        <!-- end #work -->
+        
+        <!-- begin #client -->
+        <div id="client" class="content has-bg bg-green" data-scrollview="true">
+            <!-- begin content-bg -->
+            <div class="content-bg">
+                <img src="assets/img/client-bg.jpg" alt="Client" />
+            </div> 
+            <!-- end content-bg -->
+            <!-- begin container -->
+            <div class="container" data-animation="true" data-animation-type="fadeInUp">
+                <h2 class="content-title">Nossos Depoimentos de Clientes</h2>
+                <!-- begin carousel -->
+                <div class="carousel testimonials slide" data-ride="carousel" id="testimonials">
+                    <!-- begin carousel-inner -->
+                    <div class="carousel-inner text-center">
+                        <!-- begin item -->
+                        <div class="item active">
+                            <blockquote>
+                                <i class="fa fa-quote-left"></i>
+                                Um software que estavamos aguardando a um bom tempo! Muito dinâmico e eficas no controle <br />
+                                do evento, veio para revolucionar!
+                                <i class="fa fa-quote-right"></i>
+                            </blockquote>
+                            <div class="name"> — <span class="text-theme">Valérius Bertasso</span>, Valérius Bertasso Soluções Audiovisuais</div>
+                        </div>
+                        <!-- end item -->
+                        <!-- begin item -->
+                        <div class="item">
+                            <blockquote>
+                                <i class="fa fa-quote-left"></i>
+                                Com muita agilidade eu consigo controlar, mesmo de longe, toda a logistica do evento. <br />
+                                Desde a chegada do cliente até o retorno do equipamento, fantástico!.
+                                <i class="fa fa-quote-right"></i>
+                            </blockquote>
+                            <div class="name"> — <span class="text-theme">Robson</span>, Play Produções</div>
+                        </div>
+                        <!-- end item -->
+                        <!-- begin item -->
+                        <div class="item">
+                            <blockquote>
+                                <i class="fa fa-quote-left"></i>
+                                Simplismente, a melhor plataforma de controle de eventos!!
+                                <i class="fa fa-quote-right"></i>
+                            </blockquote>
+                            <div class="name"> — <span class="text-theme">Linda Adams</span>, 3MD Produções</div>
+                        </div>
+                        <!-- end item -->
+                    </div>
+                    <!-- end carousel-inner -->
+                    <!-- begin carousel-indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#testimonials" data-slide-to="0" class="active"></li>
+                        <li data-target="#testimonials" data-slide-to="1" class=""></li>
+                        <li data-target="#testimonials" data-slide-to="2" class=""></li>
+                    </ol>
+                    <!-- end carousel-indicators -->
+                </div>
+                <!-- end carousel -->
+            </div>
+            <!-- end containter -->
+        </div>
+        <!-- end #client -->
+        
+        <!-- begin #pricing -->
+        <div id="pricing" class="content" data-scrollview="true">
+            <!-- begin container -->
+            <div class="container">
+                <h2 class="content-title">Nosso Preço</h2>
+                <p class="content-desc">
+                    Temos planos que se encaixam de acordo com a necessidade e o perfil de cada empresa.
+                    
+                </p>
+                <!-- begin pricing-table -->
+                <ul class="pricing-table col-4">
+                     <li data-animation="true" data-animation-type="fadeInUp">
+                        <div class="pricing-container">
+                            <h3>Starter</h3>
+                            <div class="price">
+                                <div class="price-figure">
+                                    <span class="price-number">FREE</span>
+                                </div>
+                            </div>
+                            <ul class="features">
+                                <li>1GB Storage</li>
+                                <li>2 Clients</li>
+                                <li>5 Active Projects</li>
+                                <li>5 Colors</li>
+                                <li>Free Goodies</li>
+                                <li>24/7 Email support</li>
+                            </ul>
+                            <div class="footer">
+                                <a href="#" class="btn btn-inverse btn-block">Buy Now</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-animation="true" data-animation-type="fadeInUp">
+                        <div class="pricing-container">
+                            <h3>Basic</h3>
+                            <div class="price">
+                                <div class="price-figure">
+                                    <span class="price-number">$9.99</span>
+                                    <span class="price-tenure">per month</span>
+                                </div>
+                            </div>
+                            <ul class="features">
+                                <li>2GB Storage</li>
+                                <li>5 Clients</li>
+                                <li>10 Active Projects</li>
+                                <li>10 Colors</li>
+                                <li>Free Goodies</li>
+                                <li>24/7 Email support</li>
+                            </ul>
+                            <div class="footer">
+                                <a href="#" class="btn btn-inverse btn-block">Buy Now</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="highlight" data-animation="true" data-animation-type="fadeInUp">
+                        <div class="pricing-container">
+                            <h3>Premium</h3>
+                            <div class="price">
+                                <div class="price-figure">
+                                    <span class="price-number">$19.99</span>
+                                    <span class="price-tenure">per month</span>
+                                </div>
+                            </div>
+                            <ul class="features">
+                                <li>5GB Storage</li>
+                                <li>10 Clients</li>
+                                <li>20 Active Projects</li>
+                                <li>20 Colors</li>
+                                <li>Free Goodies</li>
+                                <li>24/7 Email support</li>
+                            </ul>
+                            <div class="footer">
+                                <a href="#" class="btn btn-theme btn-block">Buy Now</a>
+                            </div>
+                        </div>
+                    </li>
+                     <li data-animation="true" data-animation-type="fadeInUp">
+                        <div class="pricing-container">
+                            <h3>Lifetime</h3>
+                            <div class="price">
+                                <div class="price-figure">
+                                    <span class="price-number">$999</span>
+                                </div>
+                            </div>
+                            <ul class="features">
+                                <li>Unlimited Storage</li>
+                                <li>Unlimited Clients</li>
+                                <li>Unlimited Projects</li>
+                                <li>Unlimited Colors</li>
+                                <li>Free Goodies</li>
+                                <li>24/7 Email support</li>
+                            </ul>
+                            <div class="footer">
+                                <a href="#" class="btn btn-inverse btn-block">Buy Now</a>
+                            </div>
+                        </div>
+                    </li> 
+                </ul>
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end #pricing -->
+        
+        <!-- begin #contact -->
+        <div id="contact" class="content bg-silver-lighter" data-scrollview="true">
+            <!-- begin container -->
+            <div class="container">
+                <h2 class="content-title">Contate-Nos</h2>
+                <p class="content-desc">
+                    Agradecemos o seu tempo e iremos nos esforçar para proporcionar com rapidez e precisão as <br />
+                    respostas para suas perguntas.
+                    
+                </p>
+                <!-- begin row -->
+                <div class="row">
+                    <!-- begin col-6 -->
+                    <div class="col-md-6" data-animation="true" data-animation-type="fadeInLeft">
+                        <h3>Se você tem um projeto que gostaria de discutir, entre em contato conosco.</h3>
+                        <p>
+                            Nossa equipe de profissionais estam prontas para ajudar afim de oferecer uma solução que proporcionará o crescimento e o sucesso da sua empresa.
+                        </p>
+                        <p>
+                            <strong>Event Flow Platform, Inc</strong><br />
+                            Rua João Ribeiro, 802<br />
+                            Santo André, SP 09070-2507<br />
+                            P: (55 11) 4456-7890<br />
+                        </p>
+                        <p>
+                            <span class="phone">+55 (11) 4123 4567</span><br />
+                            <a href="mailto:hello@emailaddress.com">eventflow@support.com</a>
+                        </p>
+                    </div>
+                    <!-- end col-6 -->
+                    <!-- begin col-6 -->
+                    <div class="col-md-6 form-col" data-animation="true" data-animation-type="fadeInRight">
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label class="control-label col-md-3">Nome <span class="text-theme">*</span></label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3">Email <span class="text-theme">*</span></label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3">Mensagem <span class="text-theme">*</span></label>
+                                <div class="col-md-9">
+                                    <textarea class="form-control" rows="10"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3"></label>
+                                <div class="col-md-9 text-left">
+                                    <button type="submit" class="btn btn-theme btn-block">Enviar Mensagem</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- end col-6 -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end #contact -->
+        
+        <!-- begin #footer -->
+        <div id="footer" class="footer">
+            <div class="container">
+                <div class="footer-brand">
+                    <!-- <div class="footer-brand-logo"></div> -->
+                    <h2>
+                        <span class="text-event">Event</span><span class="text-flow"> Flow</span>
+                    </h2>
+                </div>
+                <p>
+                    &copy; Copyright Event Flow 2018 V1.0<br />
+                    Uma plataforma de adiministração & controle de eventos. Created by <a href="#">AJL</a>
+                </p>
+                <p class="social-list">
+                    <a href="#"><i class="fa fa-facebook fa-fw"></i></a>
+                    <a href="#"><i class="fa fa-instagram fa-fw"></i></a>
+                    <a href="#"><i class="fa fa-twitter fa-fw"></i></a>
+                    <a href="#"><i class="fa fa-google-plus fa-fw"></i></a>
+                    <a href="#"><i class="fa fa-dribbble fa-fw"></i></a>
+                </p>
+            </div>
+        </div>
+        <!-- end #footer -->
+        
+        <!-- begin theme-panel -->
+        <div class="theme-panel">
+            <a href="javascript:;" data-click="theme-panel-expand" class="theme-collapse-btn"><i class="fa fa-cog"></i></a>
+            <div class="theme-panel-content">
+                <ul class="theme-list clearfix">
+                    <li><a href="javascript:;" class="bg-purple" data-theme="purple" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Purple">&nbsp;</a></li>
+                    <li><a href="javascript:;" class="bg-blue" data-theme="blue" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Blue">&nbsp;</a></li>
+                    <li class="active"><a href="javascript:;" class="bg-green" data-theme="default" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Default">&nbsp;</a></li>
+                    <li><a href="javascript:;" class="bg-orange" data-theme="orange" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Orange">&nbsp;</a></li>
+                    <li><a href="javascript:;" class="bg-red" data-theme="red" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Red">&nbsp;</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end theme-panel -->
+    </div>
+    <!-- end #page-container -->
+	
+	<!-- ================== BEGIN BASE JS ================== -->
+	<script src="assets/plugins/jquery/jquery-1.9.1.min.js"></script>
+	<script src="assets/plugins/jquery/jquery-migrate-1.1.0.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="assets/crossbrowserjs/html5shiv.js"></script>
+		<script src="assets/crossbrowserjs/respond.min.js"></script>
+		<script src="assets/crossbrowserjs/excanvas.min.js"></script>
+	<![endif]-->
+	<script src="assets/plugins/jquery-cookie/jquery.cookie.js"></script>
+	<script src="assets/plugins/scrollMonitor/scrollMonitor.js"></script>
+	<script src="assets/js/apps.min.js"></script>
+	<!-- ================== END BASE JS ================== -->
+	
+	<script>    
+	    $(document).ready(function() {
+	        App.init();
+	    });
+	</script>
+</body>
+</html>
